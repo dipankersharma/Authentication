@@ -18,7 +18,6 @@ const User = new mongoose.Schema({
     required: true,
     minlength: 8,
     trim: true,
-    select: false, // this hides the password field in the output
   },
 
   role: {
